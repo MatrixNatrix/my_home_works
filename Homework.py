@@ -6,9 +6,7 @@ def square_eq_solver(a, b, c):
 
    if discriminant == 0:
        result.append(-b / (2 * a))
-   elif discriminant > 0:  # <--- изменили условие, теперь
-                           # при нулевом дискриминанте
-                           # не будут вычисляться корни
+   elif discriminant > 0:  1
        result.append((-b + sqrt(discriminant)) / (2 * a))
        result.append((-b - sqrt(discriminant)) / (2 * a))
 
